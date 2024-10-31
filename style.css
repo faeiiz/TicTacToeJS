@@ -17,6 +17,7 @@ h1 {
 .container {
   height: 60vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -31,8 +32,8 @@ h1 {
 }
 .box {
   background-color: #4c2719;
-  height: 15vh;
-  width: 15vh;
+  height: 15vmin;
+  width: 15vmin;
   border-radius: 10px;
   cursor: pointer;
   border: 2px solid #9a879d;
