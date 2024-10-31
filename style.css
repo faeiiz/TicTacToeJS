@@ -39,7 +39,7 @@ h1 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-size: 8vmin;
   color: #4c2719;
-  transition: color 3s linear; /* Transition effect */
+  transition: color 1s linear; /* Transition effect */
   opacity: 1; /* Initial state to transition from */
 }
 .box.show {
