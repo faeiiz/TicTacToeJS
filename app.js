@@ -22,6 +22,7 @@ const resetGame = () => {
   enableBtns();
   winnerLbl.classList.add("hide");
   newGameBtn.classList.add("hide");
+  box.classList.remove("show");
 };
 
 newGameBtn.addEventListener("click", resetGame);
